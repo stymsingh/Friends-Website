@@ -1,0 +1,159 @@
+body {
+  margin: 0 auto;
+  width:1000px;
+}
+
+body.index{
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/326221/bg.jpg") no-repeat center center;
+    background-size:cover ;
+}
+body.academics{
+    background: url("../images/electronics.jpg") no-repeat center center;
+    background-size:cover ;
+}
+
+h1, h2, h3 {
+  color: #E0EAFC;
+
+}
+
+body {
+  font-family: 'Fresca', sans-serif;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #E0EAFC;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+}
+
+
+/*for the content navigation in index.html*/
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+}
+
+nav a:link, nav a:visited {
+  background-color: #BA8B02;
+  color: white;
+  display: block;
+  width: 250px;
+  /*as body is 960px and there are 6 menu buttons so 960/6=160px for the menu btns in index.html*/
+  text-align: center;
+  padding: 10px 0;
+  /*10 for left n ryt and 0 for top and bottom*/
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+
+/*for the blockquote in index.html*/
+
+aside {
+  width: 280px;
+  float: right;
+  background-color: #ff6a00;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.photo-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.section-text {
+  text-align: justify;
+}
+
+.photo-right {
+  float: right;
+  margin-left: 20px;
+}
+
+#roasting-center {
+  text-align: justify;
+}
+
+#grinding-center {
+  text-align: justify;
+}
+
+header {
+  background-image: url("../images/friend.jpg");
+  height: 100px;
+  margin-bottom: 70px;
+}
+
+header h1 {
+  color: rgba(256, 256, 256, 0);
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer nav a:link, footer nav a:visited {
+  color: gray;
+  text-decoration: none;
+  display: block;
+  width: 160px;
+  text-align: center;
+  background-color: white;
+}
+
+footer nav a:hover {
+  color: black;
+}
+
+td, th {
+  border: 1px solid black;
+  width: 20% text-align: center;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#table1 {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#table2 {
+  float: right;
+  margin-bottom: 20px;
+}
+
+#table3 {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#table4 {
+  float: right;
+  margin-bottom: 20px;
+}
+
+/*for the fun.html stuffs*/
+.card1{
+	margin-top: 30px;
+}
